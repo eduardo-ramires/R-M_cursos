@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+  <!-- Meta tags Obrigatórias -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Icon Fontwesome link -->
+  <script src="https://kit.fontawesome.com/33fed28b96.js" crossorigin="anonymous"></script>
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+  <!-- CSS Customizado -->
+  <link rel="stylesheet" href="css/estilos.css">
+
+  <title>R & M Cursos - Aplicativo de Estudo - Logica de programação</title>
+</head>
+
+<body>
+  <div>
+    <!--Background coloer animado-->
+    <div class="wave"></div>
+    <div class="wave"></div>
+    <div class="wave"></div>
+  </div>
+  <header id="topo">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark ">
+      <a class="navbar-brand ml-md-5 ml-lg-5" href="index.html">R & M Cursos</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+        aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item dropdown active">
+            <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">Cursos</a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="logica.html">Logica de programação</a>
+              <a class="dropdown-item" href="html5.html">Html 5</a>
+              <a class="dropdown-item" href="css3.html">CSS 3</a>
+              <a class="dropdown-item" href="responsividade.html">Responsividade</a>
+              <a class="dropdown-item" href="javascript.html">JavaScript</a>
+            </div>
+          </li>
+        </ul>
+        <div class="navbar-nav">
+          <a href="login.html" class="nav-item nav-link btn btn-primary text-white"> <i
+              class="fa-solid fa-arrow-right-to-bracket"></i> Entrar</a>
+        </div>
+
+        <div class="navbar-nav mt-3 mt-md-0 ml-lg-3 ml-md-3 ">
+          <a href="app/cadastro.html" target="_blank" class="nav-item nav-link text-white btn btn-primary"> <i
+              class="fa-solid fa-pen"></i> Assinar</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main role="main">
+    <!--CONTAINER DENTRO BODY-->
+    <div class="container">
+      <section id="videoaula">
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+            <h1 class="margem-top">Trilha 01 RSTI</h1>
+            <h3 class="">Guia de Referência para Estudos</h3>
+            <h4 class="text-white">Desenvolvimento Web Front-end</h4>
+          </div>
+          <!--Logica de Programacao-->
+          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mt-3">
+            <div class="card text-center corfundo">
+
+              <div class="card-header">
+                <h3 class="text-white">Lógica de Programação</h3>
+              </div>
+              <div class="card-header">
+                <h4>O que é algoritmo ?<small text-muted></small></h4>
+                <iframe class="w-100 video-youtube" height="480" src="https://www.youtube.com/embed/1GOwmog0Cvc"
+                  title="YouTube video player" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+                <h1>O que é, e como funciona o algoritmo?</h1>
+                <p class="text-justify text-dark mt-3">
+                  Um algoritmo é uma sequência de raciocínios, instruções ou operações para alcançar um objetivo, sendo
+                  necessário que os passos sejam finitos e operados sistematicamente. Um algoritmo, portanto, conta com
+                  a entrada (input) e saída (output) de informações mediadas pelas instruções.
+                  Parece complexo? Calma, vamos simplificar. Alguns exemplos de algoritmos que podemos citar são:
+                  receitas culinárias, manual de instrução de aparelhos, funções matemáticas e até mesmo páginas da Web,
+                  como esta que você está lendo.
+                  Pense na receita culinária, por exemplo. Ela tem os ingredientes necessários (dados de entrada), passo
+                  a passo para realizar a receita (processamento ou instruções lógicas) e atinge um resultado (o prato
+                  finalizado).
+                  É fundamental compreender que o algoritmo se justifica no resultado que ele almeja alcançar, logo,
+                  deve ter um objetivo específico. Uma sequência de instruções simples pode se tornar mais complexa
+                  conforme a necessidade de considerar outras situações.
+                  Dessa forma, o algoritmo vai crescendo e ficando mais complexo para englobar todos os cenários
+                  possíveis. Quando um programa de computador trava, por exemplo, é porque ele está recebendo
+                  informações que não foi programado para processar, ou seja, não foram considerados todos os cenários.
+                  Também é relevante que a estrutura siga uma lógica sistemática. Por exemplo, se você está fazendo um
+                  bolo, mas “pula” a etapa de inserir farinha, no final, você não terá mais um bolo.
+                  Com o código, é a mesma coisa, sendo necessário ler linha por linha para que ele atinja o objetivo
+                  final. As estruturas de um algoritmo são:
+                  variáveis: são as informações de entrada inseridas que determinam aonde o algoritmo poderá ir. As mais
+                  comuns são texto, inteiro, lógico e real;
+                  comandos de repetição: consiste no uso de “se” e “enquanto”, para que o algoritmo saiba o que fazer
+                  quando determinados processos ocorrerem e o que fazer se eles mudarem.
+                  Com essas duas estruturas, o algoritmo fica mais completo e capaz de englobar múltiplas situações para
+                  permitir que o resultado final seja alcançado.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer class="mt-4 bg-light text-center corfundo">
+    <p class="p-4"><span> Desenvolvido por Ramires & Morales</span> - &copy; 2022 -RSTI
+      <a href="#topo" class="btn btn-sm btn-dark float-right">
+        <i class="fa-solid fa-arrow-up-long fa-2x"></i>
+      </a>
+    </p>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery.slim.min.js"><\/script>')</script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

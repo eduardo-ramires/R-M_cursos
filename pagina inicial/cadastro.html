@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://kit.fontawesome.com/a76347d30e.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Cadastro / R & M Cursos</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand " href="../index.html">
+                R & M Cursos / Cadastro
+            </a>
+    </header>
+
+    <main>
+        <div class="container mt-5">
+            <section>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                        <h2 class="text-dark" id="planos">PLANOS:</h2>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mt-3">
+                        <div class="card text-center">
+                            <div class="card-header bg-dark text-white">
+                                <h3>Basic</h3>
+                            </div>
+                            <div class="card-body">
+                                <h4>R$50,00<small class="text-muted">/Ano</small></h4>
+                                <ul class="text-left mt-3">
+                                    <li>Acesso a todas aulas</li>
+                                    <li>Acesso limitado a 1 dispositivos</li>
+                                    <li>Todas aulas com certificado digital</li>
+                                    <li>Plataforma online</li>
+                                </ul>
+                                <span class="badge badge-secondary text-right">Melhor preço</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 mt-3">
+                        <div class="card text-center">
+                            <div class="card-header bg-dark text-white">
+                                <h3>Prime </h3>
+                            </div>
+                            <div class="card-body">
+                                <h4>R$200,00<small class="text-muted">/vitalicio</small></h4>
+                                <ul class="text-left mt-3">
+                                    <li>Acesso a todas as aulas</li>
+                                    <li>Grupo exclusivo para tirar duvidas</li>
+                                    <li>Acesse de até 3 dispositivos ao mesmo tempo</li>
+                                    <li>Todas aulas com certificado digital</li>
+                                </ul>
+                                <span class="badge badge-danger text-right">Plano vitalicio</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <form action="../pagina_cursos/app_index.html" method="post" class="form">
+                <div class="row mt-5">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 form-group mt-3">
+                        <label>Nome:</label>
+                        <input type="text" class="form-control" name="nome" required placeholder="Digite seu nome...">
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 form-group mt-3">
+                        <label>E-mail:</label>
+                        <input type="email" class="form-control" name="e-mail" required
+                            placeholder="Digite seu e-mail...">
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 form-group mt-3">
+                        <label>Senha:</label>
+                        <input type="password" class="form-control" name="senha" required
+                            placeholder="Digite sua senha...">
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md3 col-lg-3 form-group mt-3">
+                        <label>Telefone:</label>
+                        <input type="text" class="form-control" name="telefone" required placeholder="(XX) XXXXX-XXXX">
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-2 col-lg-2 form-group mt-3">
+                        <label for="">Escolha o curso:</label>
+                        <select name="tipo" id="" class="form-control" required>
+                            <option value="prime">Prime</option>
+                            <option value="basic">BASIC</option>
+                        </select>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 form-group mt-3">
+                        <label>Endereço:</label>
+                        <input type="text" class="form-control" name="endereco" required
+                            placeholder="Digite seu endereço...">
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 form-group mt-3">
+                        <label>Cpf:</label>
+                        <input type="text" class="form-control" name="cpf" placeholder="Digite seu cpf..." required>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 form-group mt-3">
+                        <label>Data de nascimento:</label>
+                        <input type="date" class="form-control" name="data_nascimento" required>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center mt-3">
+                        <button type="submit" class="btn btn-dark btn-lg">Confirmar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+    </main>
+
+    <footer class="mt-4 bg-light text-center text-secondary ">
+        <p>Desenvolvido por Ramires & Morales - &copy; 2022-STI</p>
+    </footer>
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

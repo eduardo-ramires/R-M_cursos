@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Icon Fontwesome link -->
+    <script src="https://kit.fontawesome.com/33fed28b96.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- CSS Customizado -->
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <title>R & M Cursos - Aplicativo de Estudo - HTML5 </title>
+</head>
+
+<body>
+    <div>
+        <!--Background coloer animado-->
+        <div class="wave"></div>
+        <div class="wave"></div>
+        <div class="wave"></div>
+    </div>
+    <header id="topo">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark ">
+            <a class="navbar-brand ml-md-5 ml-lg-5" href="index.html">R & M Cursos</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+                aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown active">
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"
+                            aria-expanded="false">Cursos</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="logica.html">Logica de programação</a>
+                            <a class="dropdown-item" href="html5.html">Html 5</a>
+                            <a class="dropdown-item" href="css3.html">CSS 3</a>
+                            <a class="dropdown-item" href="responsividade.html">Responsividade</a>
+                            <a class="dropdown-item" href="javascript.html">JavaScript</a>
+                        </div>
+                    </li>
+                </ul>
+                <div class="navbar-nav">
+                    <a href="login.html" class="nav-item nav-link btn btn-primary text-white"> <i
+                            class="fa-solid fa-arrow-right-to-bracket"></i> Entrar</a>
+                </div>
+
+                <div class="navbar-nav mt-3 mt-md-0 ml-lg-3 ml-md-3 ">
+                    <a href="app/cadastro.html" target="_blank" class="nav-item nav-link text-white btn btn-primary"> <i
+                            class="fa-solid fa-pen"></i> Assinar</a>
+                </div>
+        </nav>
+    </header>
+    <main role="main">
+        <!--CONTAINER DENTRO BODY-->
+        <div class="container">
+            <section id="videoaula">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+                        <h1 class="margem-top">Trilha 01 RSTI</h1>
+                        <h3 class="">Guia de Referência para Estudos</h3>
+                        <h4 class="text-white">Desenvolvimento Web Front-end</h4>
+                    </div>
+                    <!--HTML 5 Estudo-->
+
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 mt-3">
+                        <div class="card text-center corfundo">
+
+                            <div class="card-header">
+                                <h1 class="text-white">O que é HTML5</h1>
+                            </div>
+                            <div class="card-header">
+                                <iframe class="video-youtube w-100" height="480"
+                                    src="https://www.youtube.com/embed/NC40pGUm0Yc" title="YouTube video player"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                                <p class="text-justify mt-3">
+                                    O HTML5 é a nova versão do HTML4 e um dos seus principais objetivos é facilitar a
+                                    manipulação dos elementos, possibilitando o desenvolvedor modificar as
+                                    características dos objetos de forma não intrusiva, fazendo com que isso fique
+                                    transparente para o usuário final.
+                                    Para se ter uma ideia disso, diferente das versões anteriores, o HTML5 fornece
+                                    ferramentas para o CSS e o Javascript fazerem seu trabalho da melhor possível de
+                                    forma que um web site ou aplicação continue leve e funcional.
+                                    Algumas tags foram modificadas, outras criadas e algumas descontinuadas. As versões
+                                    anteriores do HTML não eram padronizadas para criação de seções comuns e específicas
+                                    como rodapé, cabeçalho, slidebar, menus etc.
+                                    Houve também modificações na forma em que escrevemos o código e organizamos a
+                                    página. Ela passou a ser mais semântica com menos códigos, aumentando a
+                                    interatividade sem a necessidade de instalação de plug-ins, que em alguns casos,
+                                    causa perda de performance. É um código interpolável, ou seja, pronto para futuros
+                                    dispositivos, facilitando a reutilização da informação de diversas maneiras.
+                                    Mas, caso você esteja pensando “vou ter de refazer todo o meu web site”, a WHATWG
+                                    tem mantido o foco na retro compatibilidade, ou seja, você não irá precisar refazer
+                                    todo o trabalho para se adequar aos novos conceitos e regras.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        </div>
+        </section>
+        </div>
+    </main>
+    <footer class="mt-4 bg-light text-center corfundo">
+        <p class="p-4"><span> Desenvolvido por Ramires & Morales</span> - &copy; 2022 -RSTI
+            <a href="#topo" class="btn btn-sm btn-dark float-right">
+                <i class="fa-solid fa-arrow-up-long fa-2x"></i>
+            </a>
+        </p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery.slim.min.js"><\/script>')</script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
