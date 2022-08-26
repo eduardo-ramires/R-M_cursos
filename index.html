@@ -1,29 +1,172 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-  <head>
-    <!-- Meta tags Obrigatórias -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <script src="https://kit.fontawesome.com/a76347d30e.js" crossorigin="anonymous"></script>
+<!doctype html>
+<html lang="en">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.101.0">
+  <title>R & M CURSOS</title>
 
-    <title>RSTI CARD - Aplicativo para gestão de finanças pessoais</title>
-  </head>
-  <body>
-    <header>
-      <i class=""></i>
-    </header>
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.6/examples/jumbotron/">
 
-    <footer class="mt-4 bg-light text-center text-secondary">
-      <p>Desenvolvido por Ramire - &copy; 2022 - RSTI</p>
-    </footer>
+  <script src="https://kit.fontawesome.com/33fed28b96.js" crossorigin="anonymous"></script>
 
-    <!-- JavaScript (Opcional) -->
-    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-  </body>
+
+
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- CSS Customizado -->
+  <link rel="stylesheet" href="css/estilos.css">
+
+
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+
+  <!-- Custom styles for this template -->
+  <link href="css/jumbotron.css" rel="stylesheet">
+</head>
+
+<body>
+  <div>
+    <!--Background coloer animado-->
+    <div class="wave"></div>
+    <div class="wave"></div>
+    <div class="wave"></div>
+  </div>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark ">
+    <a class="navbar-brand ml-sm-0 ml-md-5 ml-lg-5" href="index.html">R & M Cursos</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+      aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown active">
+          <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">Cursos</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="logica.html">Logica de programação</a>
+            <a class="dropdown-item" href="html5.html">Html 5</a>
+            <a class="dropdown-item" href="css3.html">CSS 3</a>
+            <a class="dropdown-item" href="responsividade.html">Responsividade</a>
+            <a class="dropdown-item" href="javascript.html">JavaScript</a>
+          </div>
+        </li>
+      </ul>
+      <div class="navbar-nav">
+        <a href="login.html" class="nav-item nav-link btn btn-primary text-white"> <i
+            class="fa-solid fa-arrow-right-to-bracket"></i> Entrar</a>
+      </div>
+
+      <div class="navbar-nav mt-3 mt-md-0 ml-md-2 ml-lg-2">
+        <a href="cadastro.html" target="_blank" class="nav-item nav-link text-white btn btn-primary"> <i
+            class="fa-solid fa-pen"></i> Assinar</a>
+      </div>
+    </div>
+  </nav>
+
+  <main role="main">
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron text-center">
+      <div class="container">
+        <h1 class="display-3">R & M CURSOS</h1>
+        <p class="mt-3 mb-4">Plataforma de ensinos relacionados a programação <strong>100% Gratuitos</strong>, com o
+          intuito de
+          profissionalizar os interessados nesta área.</p>
+        <p>
+          <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+            aria-controls="collapseExample">
+            Ler mais
+          </a>
+        </p>
+        <div class="collapse" id="collapseExample">
+          <div>
+            Este curso de programação ensina o Front-end do básico ao avançado até mesmo para leigos. O material irá
+            ensinar com uma base sólida sobre programação em geral com foco Front-end. Os alunos irão se tornar capazes
+            de aprender desenvolvimento web, mobile, games e muito mais.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 p-sm-0 p-md-4 p-lg-4">
+          <h2 class="text-center">Logica de Programação:</h2>
+          <p class="text-justify mt-4 mb-4">Lógica de programação, é foco dos cursos desta categoria. Aqui na <strong>R
+              & M Cursos&copy;</strong>
+            preferimos começar de imediato com a prática e aprender a lógica resolvendo problemas reais.</p>
+          <p class="text-center"><a class="btn btn-primary" href="logica.html" role="button">Assistir</a></p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 p-sm-0 p-md-4 p-lg-4">
+          <h2 class="text-center">HTML 5:</h2>
+          <p class="text-justify mt-4 mb-4">O HTML é uma linguagem de marcação utilizada para a criação de páginas na
+            web. Sua principal finalidade é estruturar o conteúdo disponibilizado em uma página. O Objetivo deste curso
+            é guiar você pelos principais elementos do HTML na prática.</p>
+          <p class="text-center"><a class="btn btn-primary" href="html5.html" role="button">Assistir</a></p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 p-sm-0 p-md-4 p-lg-4">
+          <h2 class="text-center">CSS 3:</h2>
+          <p class="text-justify mt-4 mb-4">CSS forma, juntamente com HTML e JavaScript, os fundamentos da programação
+            web. Neste curso veremos como utilizar essas propriedades para estilizar uma página na prática, enquanto
+            conhecemos os rudimentos desta linguagem.</p>
+          <p class="text-center"><a class="btn btn-primary" href="css3.html" role="button">Assistir</a></p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 p-sm-0 p-md-4 p-lg-4">
+          <h2 class="text-center">Resposividade:</h2>
+          <p class="text-justify mt-4 mb-4"> Neste curso online e gratuito os alunos poderão aprender a criar as suas
+            primeiras páginas na internet de uma forma simples e fácil, utilizando os recursos do HTML5 e aprendendo a
+            pensar no projeto de forma responsiva desde a sua concepção. O curso pode ser acompanhado mesmo por aqueles
+            que não possuem conhecimentos específicos em programação nesta</p>
+          <p class="text-center"><a class="btn btn-primary" href="responsividade.html" role="button">Assistir</a></p>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 p-sm-0 p-md-4 p-lg-4">
+          <h2 class="text-center">JavaScript:</h2>
+          <p class="text-justify mt-4 mb-4">Lógica de programação, é foco dos cursos desta categoria. Aqui na Alura
+            preferimos começar de imediato com a prática e aprender a lógica resolvendo problemas reais. Recomendamos
+            fortemente que você escolha uma linguagem que tenha menos barreiras na curva de aprendizagem, como
+            JavaScript ou Python.</p>
+          <p class="text-center"><a class="btn btn-primary" href="javascript.html" role="button">Assistir</a></p>
+        </div>
+        <hr>
+
+      </div> <!-- /container -->
+
+  </main>
+
+  <footer class="container-fluid">
+    <p class="text-center">R & M todos os direitos reservados &copy; | Brasil 2022</p>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery.slim.min.js"><\/script>')</script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>
